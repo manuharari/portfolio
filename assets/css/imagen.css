@@ -1,0 +1,11 @@
+.title__profile{
+   /* background-image: url(/assets/MHC.JPG);*/
+    height: 350px;
+    width: 280px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+

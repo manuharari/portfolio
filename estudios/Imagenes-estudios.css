@@ -1,0 +1,35 @@
+.academic__img{
+    /* background-image: url(/assets/MHC.JPG);*/
+     height: 350px;
+     width: 280px;
+     margin: 0 auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: auto;
+     display: grid;
+ }
+ 
+ @media screen and (min-width:768px) {
+    .academic__img{
+        /* background-image: url(/assets/MHC.JPG);*/
+         height: 350px;
+         width: 280px;
+         margin: 0 auto;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: auto;
+         justify-content: center;
+     }
+}
+
+@media screen and (min-width:0) {
+    .academic__img{
+        /* background-image: url(/assets/MHC.JPG);*/
+         height: 350px;
+         width: 280px;
+         margin: 0 auto;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: auto;
+     }
+}
