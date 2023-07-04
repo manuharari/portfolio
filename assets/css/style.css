@@ -229,7 +229,7 @@ p.about__paragraph {
 
 /* Académica */
 .academic__container {
-  display: column;
+  display: grid;
   grid-template-columns: repeat(3, minmax(auto, 36.8rem));
   gap: 1.6rem;
 }
