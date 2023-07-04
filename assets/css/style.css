@@ -229,9 +229,10 @@ p.about__paragraph {
 
 /* Académica */
 .academic__container {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(auto, 36.8rem));
-  gap: 1.6rem;
+  display: flex;
+  /* grid-template-columns: repeat(2, minmax(auto, 36.8rem)); */
+  gap: 4rem;
+  justify-content: center;
 }
 
 .academic__box {
@@ -525,8 +526,8 @@ footer.footer {
 
   /* Académica */
   .academic__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(auto, 22.4rem));
+    display: flex;
+    /*grid-template-columns: repeat(auto-fill, minmax(auto, 22.4rem));*/
     justify-content: center;
     gap: 1.6rem;
   }
@@ -540,7 +541,8 @@ footer.footer {
   }
 
   .academic__img {
-    width: 50%;
+    max-width: 500px;
+    max-height: 100px;
   }
 
   /* Skills y Hobbies */
@@ -602,13 +604,14 @@ footer.footer {
     font-size: 1.4rem;
   }
 
-  /* Académica */
+  /* Académica 
   .academic__container {
     grid-template-columns: 1fr;
-  }
+  }*/
+  
 
   .academic__img {
-    width: 27%;
+    max-width: 300px;
   }
 }
 
@@ -627,6 +630,14 @@ footer.footer {
 
   /* Académica */
   .academic__img {
-    width: 45%;
+    max-width: 400px;
   }
+}
+
+figure.academic__figure {
+  max-width: 500px;
+}
+
+.academic__text--title{
+  display: flex;
 }
