@@ -641,3 +641,9 @@ figure.academic__figure {
 .academic__text--title{
   display: flex;
 }
+
+@media screen and (max-width:758px) {
+  .title__profile{
+      display: none;
+   }
+}
