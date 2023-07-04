@@ -1,17 +1,6 @@
 # $\Huge\color{rgb(219, 175, 109)}{\texttt{Challenge ONE | Front End -  Portafolio}}$
 
-<div align="center">
-<img src="assets/images/portafolio-preview.png"></img>
-  <h3>
-    <a href="https://blackpachamame.github.io/desafíos-oracle/portfolio/">
-      🙊 Sitio en vivo
-    </a>
-    <span> | </span>
-    <a href="https://mega.nz/file/kF1E1ThC#pOCI1pd4zuTTJDgqqnmdhJpJOUnepB1wgrOn0ALpTjQ">
-      Descargar plantilla 📥
-    </a>
-  </h3>
-</div>
+![Alt text](assets/images/mhc.png)
 
 ## $\normalsize\color{rgb(219, 175, 109)}{\texttt{Requisitos}}$ 📌
 
