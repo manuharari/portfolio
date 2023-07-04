@@ -19,7 +19,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 1vw;
   box-sizing: border-box;
   font: inherit;
 }
@@ -111,7 +111,7 @@ a:hover {
 header.menu,
 section.title,
 section.experience {
-  padding: 3.2rem 15.2rem;
+  padding: 30px 8.2vw;
 }
 
 section.about,
@@ -146,6 +146,7 @@ header.menu {
 
 .menu__list {
   display: flex;
+  align-items: center;
   gap: 3.2rem;
 }
 
@@ -268,7 +269,8 @@ p.about__paragraph {
 .experience__info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  width: 100%;
   gap: 0.8rem;
 }
 
@@ -281,11 +283,13 @@ p.about__paragraph {
 .experience__enlace--repo,
 .experience__enlace--demo,
 .contacto__submit {
-  font-size: 1.6rem;
+  display: flex;
+  font-size: calc(20px + 1vw);
   font-weight: 400;
-  padding: 1.2rem 1.6rem;
-  border: 1px solid var(--color-blue);
+  padding: 1vw;
+  border: 0.5px solid var(--color-blue);
   transition: background-color 0.5s ease;
+  align-items: center;
 }
 
 .experience__enlace--repo {
@@ -444,7 +448,7 @@ footer.footer {
   background-color: var(--color-white);
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   /* Experiencia */
   .experience__box,
   .experience__box:nth-child(even) {
@@ -457,7 +461,7 @@ footer.footer {
   }
 }
 
-@media (max-width: 1186px) {
+@media (max-width: 1024px) {
   h1 {
     font-size: 3.2rem;
   }
@@ -484,7 +488,7 @@ footer.footer {
 }
 
 /* Tablet */
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   body,
   h4 {
     font-size: 1.4rem;
@@ -500,8 +504,10 @@ footer.footer {
     font-size: 1.6rem;
   }
 
-  section.title,
-  section.about,
+  secPadding{
+    padding: 3.2rem;
+  }
+
   section.skills,
   section.hobbies,
   section.academic,

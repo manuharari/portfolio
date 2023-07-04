@@ -9,3 +9,11 @@
     border-radius: 100%;
 }
 
+.experience__img{
+    display: flex;
+    height: 150px;
+    width: 180px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
